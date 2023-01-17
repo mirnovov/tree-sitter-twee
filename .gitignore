@@ -1,0 +1,17 @@
+# IDE
+*.iml
+.idea
+.nova
+.vscode
+
+# npm
+node_modules
+package-lock.json
+
+# build
+target
+build
+Makefile
+compile_parser.sh
+Cargo.lock
+Cargo.toml

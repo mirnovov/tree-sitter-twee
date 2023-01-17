@@ -1,0 +1,30 @@
+:: Room Two [tag4 tag5]
+This is the second room.
+[[Head back to the start -> Start]]
+
+:: Room One [tag1 tag3]
+This is the first room. Unfortunately, you can't exit it.
+
+:: Start [tag1 tag2] {"position": "600,400", "size": "100,200"}
+Welcome to this story!
+[[Go to the first room -> Room One]]
+[[Go to the second room -> Room Two]]
+
+:: StoryData
+{
+	"ifid": "INVALID_PLACEHOLDER",
+	"format": "INVALID_PLACEHOLDER",
+	"format-version": "0.0.1",
+	"start": "Start",
+	"tag-colors": {
+		"tag1": "blue",
+		"tag2": "blue",
+		"tag3": "blue",
+		"tag4": "blue",
+		"tag5": "blue"
+	},
+	"zoom": 1
+}
+
+:: Unaccessible [tag1 tag2] {"position": "600,400", "size": "100,200"}
+This room is unaccessible!
